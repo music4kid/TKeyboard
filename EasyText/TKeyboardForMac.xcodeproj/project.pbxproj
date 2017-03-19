@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670CDF8A1E6A7C2400C4229B /* btnSend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670CDF871E6A7C2400C4229B /* btnSend@2x.png */; };
+		670CDF8B1E6A7C2400C4229B /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670CDF881E6A7C2400C4229B /* close@2x.png */; };
+		670CDF8C1E6A7C2400C4229B /* EasyTextMac@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670CDF891E6A7C2400C4229B /* EasyTextMac@2x.png */; };
+		670CDF8F1E6A965D00C4229B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 670CDF911E6A965D00C4229B /* Localizable.strings */; };
+		671EBA671DB9EDB3007C2F53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBA661DB9EDB3007C2F53 /* AppDelegate.m */; };
+		671EBA6A1DB9EDB3007C2F53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBA691DB9EDB3007C2F53 /* main.m */; };
+		671EBA6C1DB9EDB3007C2F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671EBA6B1DB9EDB3007C2F53 /* Assets.xcassets */; };
+		671EBA6F1DB9EDB3007C2F53 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 671EBA6D1DB9EDB3007C2F53 /* MainMenu.xib */; };
+		671EBB061DB9FA0F007C2F53 /* BTCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB051DB9FA0F007C2F53 /* BTCentralManager.m */; };
+		671EBB091DB9FA30007C2F53 /* BTPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB081DB9FA30007C2F53 /* BTPeripheralManager.m */; };
+		671EBB0E1DBA0A4A007C2F53 /* BTServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB0D1DBA0A4A007C2F53 /* BTServer.m */; };
+		671EBB111DBA0A58007C2F53 /* BTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB101DBA0A58007C2F53 /* BTClient.m */; };
+		671EBB141DBA0AD9007C2F53 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671EBB131DBA0AD9007C2F53 /* CoreBluetooth.framework */; };
+		673BFD681DBE2FDB005E5364 /* TextSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 673BFD671DBE2FDB005E5364 /* TextSession.m */; };
+		673BFD6C1DBE3B9B005E5364 /* InputWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673BFD6A1DBE3B9B005E5364 /* InputWindowController.m */; };
+		673BFD6D1DBE3B9B005E5364 /* InputWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 673BFD6B1DBE3B9B005E5364 /* InputWindowController.xib */; };
+		675FCAC11DC31D32009F0A4D /* PasteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675FCAC01DC31D32009F0A4D /* PasteController.m */; };
+		675FCAC51DC31EDB009F0A4D /* PasteTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675FCAC31DC31EDB009F0A4D /* PasteTextController.m */; };
+		675FCAC61DC31EDB009F0A4D /* PasteTextController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 675FCAC41DC31EDB009F0A4D /* PasteTextController.xib */; };
+		676136F91DBC5B7E00173D89 /* BTCentralService.m in Sources */ = {isa = PBXBuildFile; fileRef = 676136F81DBC5B7E00173D89 /* BTCentralService.m */; };
+		676136FC1DBC5B9200173D89 /* BTPeripheralService.m in Sources */ = {isa = PBXBuildFile; fileRef = 676136FB1DBC5B9200173D89 /* BTPeripheralService.m */; };
+		6772DD871DC30DFB00F6EF71 /* PasteBoardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6772DD861DC30DFB00F6EF71 /* PasteBoardManager.m */; };
+		6783B74B1DBB384400E040C7 /* TextViewFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6783B74A1DBB384400E040C7 /* TextViewFormatter.m */; };
+		67B7F46A1DC4575200981317 /* PasteImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B7F4681DC4575200981317 /* PasteImageController.m */; };
+		67B7F46B1DC4575200981317 /* PasteImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B7F4691DC4575200981317 /* PasteImageController.xib */; };
+		67BCABBC1E6A73D1000916B9 /* UIColor+APP.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BCABB71E6A73D1000916B9 /* UIColor+APP.m */; };
+		67BCABBD1E6A73D1000916B9 /* VButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BCABB91E6A73D1000916B9 /* VButton.m */; };
+		67BCABBE1E6A73D1000916B9 /* VView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BCABBB1E6A73D1000916B9 /* VView.m */; };
+		67CAE2DB1DBCFDEF0001EF29 /* CustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CAE2DA1DBCFDEF0001EF29 /* CustomTextView.m */; };
+		67D1AB411DC2285400FB2416 /* ProgressObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D1AB3C1DC2285400FB2416 /* ProgressObserver.m */; };
+		67D1AB421DC2285400FB2416 /* SessionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D1AB3E1DC2285400FB2416 /* SessionContainer.m */; };
+		67D1AB431DC2285400FB2416 /* Transcript.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D1AB401DC2285400FB2416 /* Transcript.m */; };
+		67D1AB461DC228DB00FB2416 /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D1AB451DC228DB00FB2416 /* MCManager.m */; };
+		67D1AB481DC22C9F00FB2416 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D1AB471DC22C9F00FB2416 /* MultipeerConnectivity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		670CDF871E6A7C2400C4229B /* btnSend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnSend@2x.png"; sourceTree = "<group>"; };
+		670CDF881E6A7C2400C4229B /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		670CDF891E6A7C2400C4229B /* EasyTextMac@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EasyTextMac@2x.png"; sourceTree = "<group>"; };
+		670CDF901E6A965D00C4229B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		670CDF921E6A966800C4229B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		671EBA621DB9EDB3007C2F53 /* TKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		671EBA651DB9EDB3007C2F53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		671EBA661DB9EDB3007C2F53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		671EBA691DB9EDB3007C2F53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		671EBA6B1DB9EDB3007C2F53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		671EBA6E1DB9EDB3007C2F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		671EBA701DB9EDB3007C2F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		671EBB041DB9FA0F007C2F53 /* BTCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCentralManager.h; sourceTree = "<group>"; };
+		671EBB051DB9FA0F007C2F53 /* BTCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCentralManager.m; sourceTree = "<group>"; };
+		671EBB071DB9FA30007C2F53 /* BTPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeripheralManager.h; sourceTree = "<group>"; };
+		671EBB081DB9FA30007C2F53 /* BTPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeripheralManager.m; sourceTree = "<group>"; };
+		671EBB0A1DB9FBA1007C2F53 /* TransferService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferService.h; sourceTree = "<group>"; };
+		671EBB0C1DBA0A4A007C2F53 /* BTServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTServer.h; sourceTree = "<group>"; };
+		671EBB0D1DBA0A4A007C2F53 /* BTServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTServer.m; sourceTree = "<group>"; };
+		671EBB0F1DBA0A58007C2F53 /* BTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTClient.h; sourceTree = "<group>"; };
+		671EBB101DBA0A58007C2F53 /* BTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTClient.m; sourceTree = "<group>"; };
+		671EBB131DBA0AD9007C2F53 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		673BFD661DBE2FDB005E5364 /* TextSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSession.h; sourceTree = "<group>"; };
+		673BFD671DBE2FDB005E5364 /* TextSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSession.m; sourceTree = "<group>"; };
+		673BFD691DBE3B9B005E5364 /* InputWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputWindowController.h; sourceTree = "<group>"; };
+		673BFD6A1DBE3B9B005E5364 /* InputWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputWindowController.m; sourceTree = "<group>"; };
+		673BFD6B1DBE3B9B005E5364 /* InputWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputWindowController.xib; sourceTree = "<group>"; };
+		675FCABF1DC31D32009F0A4D /* PasteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteController.h; sourceTree = "<group>"; };
+		675FCAC01DC31D32009F0A4D /* PasteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteController.m; sourceTree = "<group>"; };
+		675FCAC21DC31EDB009F0A4D /* PasteTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteTextController.h; sourceTree = "<group>"; };
+		675FCAC31DC31EDB009F0A4D /* PasteTextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteTextController.m; sourceTree = "<group>"; };
+		675FCAC41DC31EDB009F0A4D /* PasteTextController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasteTextController.xib; sourceTree = "<group>"; };
+		676136F71DBC5B7E00173D89 /* BTCentralService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCentralService.h; sourceTree = "<group>"; };
+		676136F81DBC5B7E00173D89 /* BTCentralService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCentralService.m; sourceTree = "<group>"; };
+		676136FA1DBC5B9200173D89 /* BTPeripheralService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeripheralService.h; sourceTree = "<group>"; };
+		676136FB1DBC5B9200173D89 /* BTPeripheralService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeripheralService.m; sourceTree = "<group>"; };
+		6772DD851DC30DFB00F6EF71 /* PasteBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteBoardManager.h; sourceTree = "<group>"; };
+		6772DD861DC30DFB00F6EF71 /* PasteBoardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteBoardManager.m; sourceTree = "<group>"; };
+		6783B7491DBB384400E040C7 /* TextViewFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewFormatter.h; sourceTree = "<group>"; };
+		6783B74A1DBB384400E040C7 /* TextViewFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewFormatter.m; sourceTree = "<group>"; };
+		67B7F4671DC4575200981317 /* PasteImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteImageController.h; sourceTree = "<group>"; };
+		67B7F4681DC4575200981317 /* PasteImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteImageController.m; sourceTree = "<group>"; };
+		67B7F4691DC4575200981317 /* PasteImageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasteImageController.xib; sourceTree = "<group>"; };
+		67BCABB61E6A73D1000916B9 /* UIColor+APP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+APP.h"; sourceTree = "<group>"; };
+		67BCABB71E6A73D1000916B9 /* UIColor+APP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+APP.m"; sourceTree = "<group>"; };
+		67BCABB81E6A73D1000916B9 /* VButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VButton.h; sourceTree = "<group>"; };
+		67BCABB91E6A73D1000916B9 /* VButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VButton.m; sourceTree = "<group>"; };
+		67BCABBA1E6A73D1000916B9 /* VView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VView.h; sourceTree = "<group>"; };
+		67BCABBB1E6A73D1000916B9 /* VView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VView.m; sourceTree = "<group>"; };
+		67CAE2D91DBCFDEF0001EF29 /* CustomTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextView.h; sourceTree = "<group>"; };
+		67CAE2DA1DBCFDEF0001EF29 /* CustomTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextView.m; sourceTree = "<group>"; };
+		67CAE2EE1DBDBCF60001EF29 /* TKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TKeyboard.entitlements; sourceTree = "<group>"; };
+		67D1AB3B1DC2285400FB2416 /* ProgressObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressObserver.h; sourceTree = "<group>"; };
+		67D1AB3C1DC2285400FB2416 /* ProgressObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressObserver.m; sourceTree = "<group>"; };
+		67D1AB3D1DC2285400FB2416 /* SessionContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionContainer.h; sourceTree = "<group>"; };
+		67D1AB3E1DC2285400FB2416 /* SessionContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionContainer.m; sourceTree = "<group>"; };
+		67D1AB3F1DC2285400FB2416 /* Transcript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transcript.h; sourceTree = "<group>"; };
+		67D1AB401DC2285400FB2416 /* Transcript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transcript.m; sourceTree = "<group>"; };
+		67D1AB441DC228DB00FB2416 /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		67D1AB451DC228DB00FB2416 /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
+		67D1AB471DC22C9F00FB2416 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		671EBA5F1DB9EDB3007C2F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D1AB481DC22C9F00FB2416 /* MultipeerConnectivity.framework in Frameworks */,
+				671EBB141DBA0AD9007C2F53 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670CDF861E6A7C2400C4229B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				670CDF871E6A7C2400C4229B /* btnSend@2x.png */,
+				670CDF881E6A7C2400C4229B /* close@2x.png */,
+				670CDF891E6A7C2400C4229B /* EasyTextMac@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		671EBA591DB9EDB3007C2F53 = {
+			isa = PBXGroup;
+			children = (
+				671EBA641DB9EDB3007C2F53 /* TKeyboard */,
+				671EBA631DB9EDB3007C2F53 /* Products */,
+				671EBB121DBA0AD9007C2F53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		671EBA631DB9EDB3007C2F53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				671EBA621DB9EDB3007C2F53 /* TKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		671EBA641DB9EDB3007C2F53 /* TKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6772DD841DC30DEC00F6EF71 /* PasteBoard */,
+				67D1AB2E1DC2270700FB2416 /* Multipeer */,
+				671EBB0B1DBA0A14007C2F53 /* BTModule */,
+				671EBA761DB9F281007C2F53 /* BTService */,
+				674AC2711DBA544E0041BC07 /* Application */,
+				671EBA651DB9EDB3007C2F53 /* AppDelegate.h */,
+				671EBA661DB9EDB3007C2F53 /* AppDelegate.m */,
+				671EBA6B1DB9EDB3007C2F53 /* Assets.xcassets */,
+				671EBA6D1DB9EDB3007C2F53 /* MainMenu.xib */,
+				671EBA701DB9EDB3007C2F53 /* Info.plist */,
+				67CAE2EE1DBDBCF60001EF29 /* TKeyboard.entitlements */,
+				674AC2771DBA57D50041BC07 /* Resource */,
+				671EBA681DB9EDB3007C2F53 /* Supporting Files */,
+			);
+			name = TKeyboard;
+			path = EasyText;
+			sourceTree = "<group>";
+		};
+		671EBA681DB9EDB3007C2F53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				671EBA691DB9EDB3007C2F53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		671EBA761DB9F281007C2F53 /* BTService */ = {
+			isa = PBXGroup;
+			children = (
+				671EBB0A1DB9FBA1007C2F53 /* TransferService.h */,
+				676136FE1DBC5BA100173D89 /* Peripheral */,
+				676136FD1DBC5B9600173D89 /* Central */,
+			);
+			path = BTService;
+			sourceTree = "<group>";
+		};
+		671EBB0B1DBA0A14007C2F53 /* BTModule */ = {
+			isa = PBXGroup;
+			children = (
+				671EBB0C1DBA0A4A007C2F53 /* BTServer.h */,
+				671EBB0D1DBA0A4A007C2F53 /* BTServer.m */,
+				671EBB0F1DBA0A58007C2F53 /* BTClient.h */,
+				671EBB101DBA0A58007C2F53 /* BTClient.m */,
+			);
+			path = BTModule;
+			sourceTree = "<group>";
+		};
+		671EBB121DBA0AD9007C2F53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67D1AB471DC22C9F00FB2416 /* MultipeerConnectivity.framework */,
+				671EBB131DBA0AD9007C2F53 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		673BFD651DBE2F9E005E5364 /* InputController */ = {
+			isa = PBXGroup;
+			children = (
+				673BFD661DBE2FDB005E5364 /* TextSession.h */,
+				673BFD671DBE2FDB005E5364 /* TextSession.m */,
+				6783B7491DBB384400E040C7 /* TextViewFormatter.h */,
+				6783B74A1DBB384400E040C7 /* TextViewFormatter.m */,
+				67CAE2D91DBCFDEF0001EF29 /* CustomTextView.h */,
+				67CAE2DA1DBCFDEF0001EF29 /* CustomTextView.m */,
+				673BFD691DBE3B9B005E5364 /* InputWindowController.h */,
+				673BFD6A1DBE3B9B005E5364 /* InputWindowController.m */,
+				673BFD6B1DBE3B9B005E5364 /* InputWindowController.xib */,
+			);
+			name = InputController;
+			sourceTree = "<group>";
+		};
+		674AC2711DBA544E0041BC07 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				67BCABB51E6A73D1000916B9 /* Common */,
+				675FCABE1DC31CFC009F0A4D /* PasteController */,
+				673BFD651DBE2F9E005E5364 /* InputController */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		674AC2771DBA57D50041BC07 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				670CDF861E6A7C2400C4229B /* images */,
+				670CDF911E6A965D00C4229B /* Localizable.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		675FCABE1DC31CFC009F0A4D /* PasteController */ = {
+			isa = PBXGroup;
+			children = (
+				675FCABF1DC31D32009F0A4D /* PasteController.h */,
+				675FCAC01DC31D32009F0A4D /* PasteController.m */,
+				675FCAC21DC31EDB009F0A4D /* PasteTextController.h */,
+				675FCAC31DC31EDB009F0A4D /* PasteTextController.m */,
+				675FCAC41DC31EDB009F0A4D /* PasteTextController.xib */,
+				67B7F4671DC4575200981317 /* PasteImageController.h */,
+				67B7F4681DC4575200981317 /* PasteImageController.m */,
+				67B7F4691DC4575200981317 /* PasteImageController.xib */,
+			);
+			path = PasteController;
+			sourceTree = "<group>";
+		};
+		676136FD1DBC5B9600173D89 /* Central */ = {
+			isa = PBXGroup;
+			children = (
+				671EBB041DB9FA0F007C2F53 /* BTCentralManager.h */,
+				671EBB051DB9FA0F007C2F53 /* BTCentralManager.m */,
+				676136F71DBC5B7E00173D89 /* BTCentralService.h */,
+				676136F81DBC5B7E00173D89 /* BTCentralService.m */,
+			);
+			name = Central;
+			sourceTree = "<group>";
+		};
+		676136FE1DBC5BA100173D89 /* Peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				671EBB071DB9FA30007C2F53 /* BTPeripheralManager.h */,
+				671EBB081DB9FA30007C2F53 /* BTPeripheralManager.m */,
+				676136FA1DBC5B9200173D89 /* BTPeripheralService.h */,
+				676136FB1DBC5B9200173D89 /* BTPeripheralService.m */,
+			);
+			name = Peripheral;
+			sourceTree = "<group>";
+		};
+		6772DD841DC30DEC00F6EF71 /* PasteBoard */ = {
+			isa = PBXGroup;
+			children = (
+				6772DD851DC30DFB00F6EF71 /* PasteBoardManager.h */,
+				6772DD861DC30DFB00F6EF71 /* PasteBoardManager.m */,
+			);
+			path = PasteBoard;
+			sourceTree = "<group>";
+		};
+		67BCABB51E6A73D1000916B9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				67BCABB61E6A73D1000916B9 /* UIColor+APP.h */,
+				67BCABB71E6A73D1000916B9 /* UIColor+APP.m */,
+				67BCABB81E6A73D1000916B9 /* VButton.h */,
+				67BCABB91E6A73D1000916B9 /* VButton.m */,
+				67BCABBA1E6A73D1000916B9 /* VView.h */,
+				67BCABBB1E6A73D1000916B9 /* VView.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		67D1AB2E1DC2270700FB2416 /* Multipeer */ = {
+			isa = PBXGroup;
+			children = (
+				67D1AB391DC2285400FB2416 /* Controller */,
+				67D1AB3A1DC2285400FB2416 /* Service */,
+			);
+			path = Multipeer;
+			sourceTree = "<group>";
+		};
+		67D1AB391DC2285400FB2416 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				67D1AB441DC228DB00FB2416 /* MCManager.h */,
+				67D1AB451DC228DB00FB2416 /* MCManager.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		67D1AB3A1DC2285400FB2416 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				67D1AB3D1DC2285400FB2416 /* SessionContainer.h */,
+				67D1AB3E1DC2285400FB2416 /* SessionContainer.m */,
+				67D1AB3F1DC2285400FB2416 /* Transcript.h */,
+				67D1AB401DC2285400FB2416 /* Transcript.m */,
+				67D1AB3B1DC2285400FB2416 /* ProgressObserver.h */,
+				67D1AB3C1DC2285400FB2416 /* ProgressObserver.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		671EBA611DB9EDB3007C2F53 /* TKeyboardForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671EBA731DB9EDB3007C2F53 /* Build configuration list for PBXNativeTarget "TKeyboardForMac" */;
+			buildPhases = (
+				671EBA5E1DB9EDB3007C2F53 /* Sources */,
+				671EBA5F1DB9EDB3007C2F53 /* Frameworks */,
+				671EBA601DB9EDB3007C2F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKeyboardForMac;
+			productName = EasyText;
+			productReference = 671EBA621DB9EDB3007C2F53 /* TKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		671EBA5A1DB9EDB3007C2F53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = music4kid;
+				TargetAttributes = {
+					671EBA611DB9EDB3007C2F53 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2WQE6AU5PD;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 671EBA5D1DB9EDB3007C2F53 /* Build configuration list for PBXProject "TKeyboardForMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 671EBA591DB9EDB3007C2F53;
+			productRefGroup = 671EBA631DB9EDB3007C2F53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				671EBA611DB9EDB3007C2F53 /* TKeyboardForMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		671EBA601DB9EDB3007C2F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675FCAC61DC31EDB009F0A4D /* PasteTextController.xib in Resources */,
+				670CDF8B1E6A7C2400C4229B /* close@2x.png in Resources */,
+				673BFD6D1DBE3B9B005E5364 /* InputWindowController.xib in Resources */,
+				671EBA6C1DB9EDB3007C2F53 /* Assets.xcassets in Resources */,
+				670CDF8F1E6A965D00C4229B /* Localizable.strings in Resources */,
+				67B7F46B1DC4575200981317 /* PasteImageController.xib in Resources */,
+				671EBA6F1DB9EDB3007C2F53 /* MainMenu.xib in Resources */,
+				670CDF8A1E6A7C2400C4229B /* btnSend@2x.png in Resources */,
+				670CDF8C1E6A7C2400C4229B /* EasyTextMac@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		671EBA5E1DB9EDB3007C2F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671EBB061DB9FA0F007C2F53 /* BTCentralManager.m in Sources */,
+				67D1AB461DC228DB00FB2416 /* MCManager.m in Sources */,
+				67D1AB431DC2285400FB2416 /* Transcript.m in Sources */,
+				6783B74B1DBB384400E040C7 /* TextViewFormatter.m in Sources */,
+				67D1AB421DC2285400FB2416 /* SessionContainer.m in Sources */,
+				673BFD6C1DBE3B9B005E5364 /* InputWindowController.m in Sources */,
+				67BCABBE1E6A73D1000916B9 /* VView.m in Sources */,
+				676136FC1DBC5B9200173D89 /* BTPeripheralService.m in Sources */,
+				67BCABBC1E6A73D1000916B9 /* UIColor+APP.m in Sources */,
+				67BCABBD1E6A73D1000916B9 /* VButton.m in Sources */,
+				671EBB091DB9FA30007C2F53 /* BTPeripheralManager.m in Sources */,
+				671EBB0E1DBA0A4A007C2F53 /* BTServer.m in Sources */,
+				671EBA6A1DB9EDB3007C2F53 /* main.m in Sources */,
+				67CAE2DB1DBCFDEF0001EF29 /* CustomTextView.m in Sources */,
+				671EBB111DBA0A58007C2F53 /* BTClient.m in Sources */,
+				673BFD681DBE2FDB005E5364 /* TextSession.m in Sources */,
+				67B7F46A1DC4575200981317 /* PasteImageController.m in Sources */,
+				675FCAC11DC31D32009F0A4D /* PasteController.m in Sources */,
+				6772DD871DC30DFB00F6EF71 /* PasteBoardManager.m in Sources */,
+				676136F91DBC5B7E00173D89 /* BTCentralService.m in Sources */,
+				67D1AB411DC2285400FB2416 /* ProgressObserver.m in Sources */,
+				671EBA671DB9EDB3007C2F53 /* AppDelegate.m in Sources */,
+				675FCAC51DC31EDB009F0A4D /* PasteTextController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		670CDF911E6A965D00C4229B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670CDF901E6A965D00C4229B /* en */,
+				670CDF921E6A966800C4229B /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		671EBA6D1DB9EDB3007C2F53 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671EBA6E1DB9EDB3007C2F53 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		671EBA711DB9EDB3007C2F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		671EBA721DB9EDB3007C2F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		671EBA741DB9EDB3007C2F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EasyText/TKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2WQE6AU5PD;
+				INFOPLIST_FILE = EasyText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.music4kid.EasyTextMac;
+				PRODUCT_NAME = TKeyboard;
+			};
+			name = Debug;
+		};
+		671EBA751DB9EDB3007C2F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EasyText/TKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2WQE6AU5PD;
+				INFOPLIST_FILE = EasyText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.music4kid.EasyTextMac;
+				PRODUCT_NAME = TKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		671EBA5D1DB9EDB3007C2F53 /* Build configuration list for PBXProject "TKeyboardForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671EBA711DB9EDB3007C2F53 /* Debug */,
+				671EBA721DB9EDB3007C2F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671EBA731DB9EDB3007C2F53 /* Build configuration list for PBXNativeTarget "TKeyboardForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671EBA741DB9EDB3007C2F53 /* Debug */,
+				671EBA751DB9EDB3007C2F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 671EBA5A1DB9EDB3007C2F53 /* Project object */;
+}

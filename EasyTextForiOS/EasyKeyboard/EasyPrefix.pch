@@ -1,0 +1,36 @@
+//
+//  EasyPrefix.pch
+//  EasyTextForiOS
+//
+//  Created by gao feng on 2016/10/21.
+//  Copyright © 2016年 music4kid. All rights reserved.
+//
+
+#ifndef EasyPrefix_pch
+#define EasyPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#import "SharedConfig.h"
+#import "SharedMacro.h"
+#import "UIColor+Hex.h"
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#endif
+
+
+
+#endif /* EasyPrefix_pch */

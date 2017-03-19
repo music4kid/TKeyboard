@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  TKeyboardForMac
+
+  Created by gao feng on 2017/3/4.
+  Copyright © 2017年 music4kid. All rights reserved.
+*/
+{
+    "AppName" = "TKeyboard";
+    "BtnTextSend" = "发送";
+    "StatusConnecting" = "连接中...";
+    "StatusConnected" = "已连接";
+    "CmdEnterSend" = "按 cmd + enter 发送";
+}

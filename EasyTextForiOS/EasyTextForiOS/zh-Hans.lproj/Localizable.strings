@@ -1,0 +1,22 @@
+{
+    "HowToUse" = "如何使用？";
+    "Step1" = "第一步: 添加 TKeyboard";
+    "Step2" = "第二步: 允许完全访问";
+    "Step3" = "第三步: 选择 TKeyboard";
+    "HeaderInfo" = "信息";
+    "CellGuide" = "说明";
+    "CellAbout" = "关于";
+    "CellReview" = "去 App Store 评价";
+    "HeaderDevices" = "设备";
+    "AppName" = "TKeyboard";
+    "Searching" = "正在搜索可用的蓝牙键盘...";
+    "Connected" = "已连接至 %@";
+    "OpenAccessDisabled" = "请允许完全访问";
+    "BluetoothPoweredOff" = "请打开蓝牙";
+    "DeviceSearching" = "搜索中...";
+    "DetailedGuide" = "① 在系统设置中添加 TKeyboard\n\n② 允许完全访问\n\n③ 选择 TKeyboard\n\n\n\n\n\n 反馈: 1197902291@qq.com";
+    "txtBluetooth" = "蓝牙";
+    "txtDelete" = "删除";
+    "txtOK" = "确定";
+    "tipMacApp" = "请确保 Mac 上的 TKeyboard 已在运行，且蓝牙是打开状态";
+}

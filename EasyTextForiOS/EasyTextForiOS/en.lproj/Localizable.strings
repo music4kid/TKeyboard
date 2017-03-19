@@ -1,0 +1,22 @@
+{
+    "HowToUse" = "How to use?";
+    "Step1" = "Step 1: Add TKeyboard";
+    "Step2" = "Step 2: Enable Full Access";
+    "Step3" = "Step 3: Choose TKeyboard";
+    "HeaderInfo" = "Information";
+    "CellGuide" = "Guide";
+    "CellAbout" = "About";
+    "CellReview" = "Rate us on App Store";
+    "HeaderDevices" = "Devices";
+    "AppName" = "TKeyboard";
+    "Searching" = "search available devices...";
+    "Connected" = "connected to %@";
+    "OpenAccessDisabled" = "pleae enable open access";
+    "BluetoothPoweredOff" = "please turn on bluetooth";
+    "DeviceSearching" = "searching...";
+    "DetailedGuide" = "① Add TKeyboard in system settings\n\n② Enable Full Access\n\n③ Choose TKeyboard\n\n\n\n\n\n Feedback: 1197902291@qq.com";
+    "txtBluetooth" = "Bluetooth";
+    "txtDelete" = "Delete";
+    "txtOK" = "OK";
+    "tipMacApp" = "Please make sure TKeyboard is running on your Mac with bluetooth open";
+}
