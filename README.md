@@ -34,9 +34,9 @@ TKeyboard 的最终目标是一个 Mac 与 iOS 的同步应用，这是一个庞
 
 iPhone 版目前售价 $3，Mac 版免费。因为代码开源，实际和完全免费没差别。如果觉得代码或者 App 本身对你有帮助，可以考虑去 App Store 下载，赞助 Peak 君一杯咖啡。
 
-iOS 版 TKeyboard 下载地址：[https://itunes.apple.com/us/app/tkeyboard/id1168383839?l=zh&ls=1&mt=8](https://itunes.apple.com/us/app/tkeyboard/id1168383839?l=zh&ls=1&mt=8)
+iOS 版 TKeyboard 下载地址：[https://itunes.apple.com/cn/app/tkeyboard/id1168383839?l=zh&ls=1&mt=8](https://itunes.apple.com/cn/app/tkeyboard/id1168383839?l=zh&ls=1&mt=8)
 
-Mac 版 TKeyboard 下载地址：[https://itunes.apple.com/us/app/tkeyboard/id1168383849?l=zh&ls=1&mt=12](https://itunes.apple.com/us/app/tkeyboard/id1168383849?l=zh&ls=1&mt=12)
+Mac 版 TKeyboard 下载地址：[https://itunes.apple.com/cn/app/tkeyboard/id1168383849?l=zh&ls=1&mt=12](https://itunes.apple.com/cn/app/tkeyboard/id1168383849?l=zh&ls=1&mt=12)
 
 我的个人公众号：MrPeak杂货铺
 
