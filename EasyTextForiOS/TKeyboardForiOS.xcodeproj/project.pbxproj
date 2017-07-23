@@ -70,7 +70,6 @@
 		671EBBCF1DBA2BA4007C2F53 /* KeyboardHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBBCE1DBA2BA4007C2F53 /* KeyboardHolder.m */; };
 		671EBBD21DBA2F7A007C2F53 /* KeyboardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBBD11DBA2F7A007C2F53 /* KeyboardAdapter.m */; };
 		671EBBD81DBA3044007C2F53 /* AvailableServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBBD71DBA3044007C2F53 /* AvailableServer.m */; };
-		6722458A1DC59F2400583852 /* ESharedUserDefault.h in Sources */ = {isa = PBXBuildFile; fileRef = 672BF63F1DC501F600D5F3EB /* ESharedUserDefault.h */; };
 		6722458E1DC5A47100583852 /* SyncHostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6722458C1DC5A47100583852 /* SyncHostCell.m */; };
 		6722458F1DC5A47100583852 /* SyncHostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6722458D1DC5A47100583852 /* SyncHostCell.xib */; };
 		672BF62B1DC4F79C00D5F3EB /* SyncHost.xib in Resources */ = {isa = PBXBuildFile; fileRef = 672BF62A1DC4F79C00D5F3EB /* SyncHost.xib */; };
@@ -98,7 +97,6 @@
 		675162031E727164006B8555 /* launchbg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 675161FF1E727164006B8555 /* launchbg@3x.png */; };
 		675162041E727164006B8555 /* T@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 675162001E727164006B8555 /* T@2x.png */; };
 		675162051E727164006B8555 /* T@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 675162011E727164006B8555 /* T@3x.png */; };
-		675FCAB81DC3161F009F0A4D /* MSWeakTimer.h in Sources */ = {isa = PBXBuildFile; fileRef = 6772DD8D1DC3158C00F6EF71 /* MSWeakTimer.h */; };
 		675FCAB91DC31640009F0A4D /* MSWeakTimer.h in Sources */ = {isa = PBXBuildFile; fileRef = 6772DD8D1DC3158C00F6EF71 /* MSWeakTimer.h */; };
 		675FCABA1DC31640009F0A4D /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6772DD8E1DC3158C00F6EF71 /* MSWeakTimer.m */; };
 		675FCABD1DC31910009F0A4D /* BackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 675FCABC1DC31910009F0A4D /* BackgroundTask.m */; };
@@ -111,26 +109,14 @@
 		6767531A1DC0850900C0B567 /* EMainInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 676753141DC0850900C0B567 /* EMainInteractor.m */; };
 		6767531B1DC0850900C0B567 /* EMainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 676753161DC0850900C0B567 /* EMainPresenter.m */; };
 		6767531C1DC0850900C0B567 /* EMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 676753181DC0850900C0B567 /* EMainView.m */; };
-		6767531E1DC0860000C0B567 /* MBProgressHUD.h in Sources */ = {isa = PBXBuildFile; fileRef = 671EBBC91DBA26EE007C2F53 /* MBProgressHUD.h */; };
 		6767531F1DC0860000C0B567 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBBCA1DBA26EE007C2F53 /* MBProgressHUD.m */; };
 		676753201DC0860000C0B567 /* EasyPrefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 671EBBC61DBA267F007C2F53 /* EasyPrefix.pch */; };
-		676753211DC0860000C0B567 /* AppConfig.h in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB481DBA25D6007C2F53 /* AppConfig.h */; };
-		676753221DC0860000C0B567 /* CDDContext.h in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB4A1DBA25D6007C2F53 /* CDDContext.h */; };
 		676753231DC0860000C0B567 /* CDDContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB4B1DBA25D6007C2F53 /* CDDContext.m */; };
-		676753241DC0860000C0B567 /* NSObject+CDD.h in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB4C1DBA25D6007C2F53 /* NSObject+CDD.h */; };
 		676753251DC0860000C0B567 /* NSObject+CDD.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB4D1DBA25D6007C2F53 /* NSObject+CDD.m */; };
-		676753261DC0860000C0B567 /* DBConst.h in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB4E1DBA25D6007C2F53 /* DBConst.h */; };
-		676753271DC0860000C0B567 /* SharedConfig.h in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB4F1DBA25D6007C2F53 /* SharedConfig.h */; };
-		6767532A1DC0860000C0B567 /* UIColor+Hex.h in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB541DBA25D6007C2F53 /* UIColor+Hex.h */; };
 		6767532B1DC0860000C0B567 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB551DBA25D6007C2F53 /* UIColor+Hex.m */; };
-		676753681DC0860000C0B567 /* SharedMacro.h in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB951DBA25D6007C2F53 /* SharedMacro.h */; };
-		676753691DC0860000C0B567 /* EAdapter.h in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB981DBA25D6007C2F53 /* EAdapter.h */; };
 		6767536A1DC0860000C0B567 /* EAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB991DBA25D6007C2F53 /* EAdapter.m */; };
-		6767536B1DC0860000C0B567 /* ENavigationController.h in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB9A1DBA25D6007C2F53 /* ENavigationController.h */; };
 		6767536C1DC0860000C0B567 /* ENavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB9B1DBA25D6007C2F53 /* ENavigationController.m */; };
-		6767536D1DC0860000C0B567 /* EPresenter.h in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB9C1DBA25D6007C2F53 /* EPresenter.h */; };
 		6767536E1DC0860000C0B567 /* EPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB9D1DBA25D6007C2F53 /* EPresenter.m */; };
-		6767536F1DC0860000C0B567 /* EViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB9E1DBA25D6007C2F53 /* EViewController.h */; };
 		676753701DC0860000C0B567 /* EViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671EBB9F1DBA25D6007C2F53 /* EViewController.m */; };
 		676753741DC08ACF00C0B567 /* PAnimatedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 676753731DC08ACF00C0B567 /* PAnimatedLabel.m */; };
 		6767537D1DC09B1C00C0B567 /* KeyboardContentProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6767537C1DC09B1C00C0B567 /* KeyboardContentProvider.m */; };
@@ -1288,27 +1274,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				673A54AA1E78EFFB00204DFE /* NumberHolder.m in Sources */,
-				6722458A1DC59F2400583852 /* ESharedUserDefault.h in Sources */,
-				675FCAB81DC3161F009F0A4D /* MSWeakTimer.h in Sources */,
-				6767531E1DC0860000C0B567 /* MBProgressHUD.h in Sources */,
 				6767531F1DC0860000C0B567 /* MBProgressHUD.m in Sources */,
 				676753201DC0860000C0B567 /* EasyPrefix.pch in Sources */,
 				675FCABD1DC31910009F0A4D /* BackgroundTask.m in Sources */,
-				676753211DC0860000C0B567 /* AppConfig.h in Sources */,
-				676753221DC0860000C0B567 /* CDDContext.h in Sources */,
 				67D3D0C31DC3925C00C8E2FA /* ESyncHostInteractor.m in Sources */,
 				676753231DC0860000C0B567 /* CDDContext.m in Sources */,
 				67F39CC21E7BEB82002451E9 /* KeyboardGuideController.m in Sources */,
-				676753241DC0860000C0B567 /* NSObject+CDD.h in Sources */,
 				67D1AB6A1DC22EF700FB2416 /* EMultiPeerView.m in Sources */,
 				676753251DC0860000C0B567 /* NSObject+CDD.m in Sources */,
-				676753261DC0860000C0B567 /* DBConst.h in Sources */,
-				676753271DC0860000C0B567 /* SharedConfig.h in Sources */,
 				67D1AB591DC22E8200FB2416 /* Transcript.m in Sources */,
 				6722458E1DC5A47100583852 /* SyncHostCell.m in Sources */,
 				67D1AB571DC22E8200FB2416 /* ProgressObserver.m in Sources */,
 				67D1AB691DC22EF700FB2416 /* EMultiPeerPresenter.m in Sources */,
-				6767532A1DC0860000C0B567 /* UIColor+Hex.h in Sources */,
 				67D1AB581DC22E8200FB2416 /* SessionContainer.m in Sources */,
 				6767532B1DC0860000C0B567 /* UIColor+Hex.m in Sources */,
 				67D1AB671DC22EF700FB2416 /* EMultiPeerController.m in Sources */,
@@ -1320,17 +1297,12 @@
 				67D3CFEF1DC3548700C8E2FA /* CommonActionCell.m in Sources */,
 				6772DD8B1DC3110100F6EF71 /* PasteBoardManager.m in Sources */,
 				67D1AB681DC22EF700FB2416 /* EMultiPeerInteractor.m in Sources */,
-				676753681DC0860000C0B567 /* SharedMacro.h in Sources */,
-				676753691DC0860000C0B567 /* EAdapter.h in Sources */,
 				6767536A1DC0860000C0B567 /* EAdapter.m in Sources */,
 				6772DD8F1DC3158C00F6EF71 /* MSWeakTimer.m in Sources */,
-				6767536B1DC0860000C0B567 /* ENavigationController.h in Sources */,
 				6767536C1DC0860000C0B567 /* ENavigationController.m in Sources */,
 				67D1AB561DC22E8200FB2416 /* MCManager.m in Sources */,
-				6767536D1DC0860000C0B567 /* EPresenter.h in Sources */,
 				67D3D0C41DC3925C00C8E2FA /* ESyncHostPresenter.m in Sources */,
 				6767536E1DC0860000C0B567 /* EPresenter.m in Sources */,
-				6767536F1DC0860000C0B567 /* EViewController.h in Sources */,
 				676753701DC0860000C0B567 /* EViewController.m in Sources */,
 				6767531A1DC0850900C0B567 /* EMainInteractor.m in Sources */,
 				671EBAEC1DB9F900007C2F53 /* AppDelegate.m in Sources */,
